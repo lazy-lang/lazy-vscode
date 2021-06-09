@@ -8,18 +8,25 @@
     },
     "categories": [
         "Programming Languages"
+        "Snippets"
     ],
     "contributes": {
         "languages": [{
-            "id": "rust",
-            "aliases": ["lazy", "rust"],
+            "id": "lazy",
+            "aliases": ["lazy", "lazy-lang"],
             "extensions": [".lazy"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "rust",
+            "language": "lazy",
             "scopeName": "source.lazy",
             "path": "./syntaxes/rust.tmLanguage.json"
-        }]
+        }],
+          "snippets": [
+      {
+        "language": "lazy",
+        "path": "./snippets/lazy.json"
+      }
+    ]
     }
 }
