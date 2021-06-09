@@ -19,8 +19,7 @@
     "For Statement":{
         "prefix":"for",
         "body":[
-            "for $2 {",
-            "}"
+            "for $2 in $3",
         ],
         "description":"For Statement Snippet"
     }
