@@ -1,0 +1,25 @@
+{
+    "name": "lazy-lang",
+    "displayName": "lazy",
+    "description": "Language support for the Lazy Lang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rust",
+            "aliases": ["lazy", "rust"],
+            "extensions": [".lazy"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rust",
+            "scopeName": "source.lazy",
+            "path": "./syntaxes/rust.tmLanguage.json"
+        }]
+    }
+}
