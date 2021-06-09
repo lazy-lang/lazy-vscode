@@ -1,0 +1,28 @@
+{
+    "Type Struture":{
+        "prefix":"struct",
+        "body":[
+            "struct $1 {",
+            "$2: $3,",
+            "}"
+        ],
+        "description":"Structure definition Snippet"
+    },
+    "If Statement":{
+        "prefix":"if",
+        "body":[
+            "if $1 {",
+            "}"
+        ],
+        "description":"If Statement Snippet"
+    },
+    "For Statement":{
+        "prefix":"for",
+        "body":[
+            "for $2 {",
+            "}"
+        ],
+        "description":"For Statement Snippet"
+    }
+    
+}
